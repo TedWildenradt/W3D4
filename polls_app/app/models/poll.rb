@@ -10,7 +10,7 @@
 #
 
 class Poll < ApplicationRecord
-  validates :author_id, :title, null: false
+  validates :title, null: false
 
   belongs_to :author,
     primary_key: :id,

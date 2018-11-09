@@ -10,7 +10,7 @@
 #
 
 class AnswerChoice < ApplicationRecord
-  validates :question_id, presence: true
+  # validates :question_id, presence: true
   
   belongs_to :question,
     primary_key: :id,

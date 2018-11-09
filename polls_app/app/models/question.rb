@@ -11,7 +11,7 @@
 
 class Question < ApplicationRecord
 
-  validates :poll_id, presence: true
+  # validates :poll_id, presence: true
   
   has_many :answer_choices,
     primary_key: :id,
